@@ -1,0 +1,20 @@
+{
+    "experiment_name": "rackcool-cooling-power-kw",
+    "models": [
+        {
+            "name": "Lasso",
+            "mae": 9.26787564407218,
+            "rmse": 9.319145153027128,
+            "r2": 0.9792334801810739
+        },
+        {
+            "name": "RandomForest",
+            "mae": 27.812575000000013,
+            "rmse": 35.24521000465883,
+            "r2": 0.7029621631113776
+        }
+    ],
+    "best_model": "Lasso",
+    "best_metric_name": "mae",
+    "best_metric_value": 9.26787564407218
+}

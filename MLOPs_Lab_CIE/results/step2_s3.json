@@ -1,0 +1,12 @@
+{
+    "image_name": "rackcool-predictor",
+    "image_tag": "v1",
+    "base_image": "python:3.10-slim",
+    "test_input": {
+        "server_rack_count": 23,
+        "ambient_temp_c": 30.4,
+        "compute_load_pct": 69.7,
+        "is_liquid_cooled": 0
+    },
+    "prediction": 89.78403520263134
+}
